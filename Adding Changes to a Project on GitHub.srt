@@ -1,0 +1,462 @@
+1
+00:00:00,435 --> 00:00:03,738
+We now have a fresh GitHub repo and
+can add files and
+
+2
+00:00:03,738 --> 00:00:07,445
+make changes to those files and
+Git will track it for us.
+
+3
+00:00:07,445 --> 00:00:12,843
+As I've said before, GitHub is built upon
+the version control system called Git.
+
+4
+00:00:12,843 --> 00:00:17,769
+Version control systems let you record
+the history of all the changes you make
+
+5
+00:00:17,769 --> 00:00:22,334
+to a project so you can go back to
+earlier versions if you make a mistake.
+
+6
+00:00:22,334 --> 00:00:25,711
+In Git,
+a record of a change is called a commit.
+
+7
+00:00:25,711 --> 00:00:30,562
+Generally anytime you make a small but
+significant change to your project files,
+
+8
+00:00:30,562 --> 00:00:33,174
+you'll record that change, or commit it.
+
+9
+00:00:33,174 --> 00:00:35,962
+Let's make a change to a file and
+commit it.
+
+10
+00:00:35,962 --> 00:00:40,666
+I'll click open this repository
+to locate my repository.
+
+11
+00:00:40,666 --> 00:00:43,652
+Then open the project in a text editor.
+
+12
+00:00:48,555 --> 00:00:54,461
+I'll go to the README file, delete this
+line and type it in a nicer format.
+
+13
+00:00:59,160 --> 00:01:03,109
+Then I'll save and
+go back to GitHub desktop.
+
+14
+00:01:03,109 --> 00:01:05,368
+On the left, in the Changes tab,
+
+15
+00:01:05,368 --> 00:01:10,801
+you'll see a list of all the files that
+have been changed since the last commit.
+
+16
+00:01:10,801 --> 00:01:14,822
+As well as the individual changes
+that were made on the right.
+
+17
+00:01:14,822 --> 00:01:20,160
+Deletions are highlighted in red and
+additions are highlighted in green.
+
+18
+00:01:20,160 --> 00:01:24,846
+In the history tab, you'll see a list of
+all the commits you've made to a project.
+
+19
+00:01:24,846 --> 00:01:29,811
+The files that were changed as part
+of the commit, and the additions and
+
+20
+00:01:29,811 --> 00:01:32,727
+deletions that were made to those files.
+
+21
+00:01:32,727 --> 00:01:38,245
+Click back to the Changes tab and you can
+see now that there's one changed file.
+
+22
+00:01:38,245 --> 00:01:42,995
+To commit this change, I'll add a commit
+message here where it says summary.
+
+23
+00:01:42,995 --> 00:01:47,664
+The commit message should be a succinct
+summary of the changes I've made since my
+
+24
+00:01:47,664 --> 00:01:48,495
+last commit.
+
+25
+00:01:48,495 --> 00:01:56,219
+In this case I'll type updated
+title of README file.
+
+26
+00:01:56,219 --> 00:02:00,135
+Then I'll click commit to master.
+
+27
+00:02:00,135 --> 00:02:02,507
+Let's check our work on github.com.
+
+28
+00:02:11,207 --> 00:02:14,926
+You can actually open the file and
+view it here.
+
+29
+00:02:14,926 --> 00:02:17,699
+As you can see,
+my change hasn't been made yet.
+
+30
+00:02:17,699 --> 00:02:24,451
+That's because I need to go back to
+GitHub desktop and click Push origin.
+
+31
+00:02:24,451 --> 00:02:28,783
+This will make sure that the latest
+version of the repo that I have stored
+
+32
+00:02:28,783 --> 00:02:33,344
+locally on my computer, matches
+the version that exists on GitHub.com.
+
+33
+00:02:33,344 --> 00:02:37,349
+Now I can go back to GitHub.com,
+
+34
+00:02:37,349 --> 00:02:41,216
+refresh, and view my changes.
+
+35
+00:02:41,216 --> 00:02:43,969
+Let's add a couple of files to this repo.
+
+36
+00:02:43,969 --> 00:02:48,576
+For example, say I wanted to add
+some Techdegree starter files.
+
+37
+00:02:48,576 --> 00:02:54,005
+I can go to my Techdegree home page,
+download the starter files,
+
+38
+00:02:59,578 --> 00:03:04,091
+unzip this and move the contents of this
+
+39
+00:03:04,091 --> 00:03:09,166
+folder into my Techdegree project folder.
+
+40
+00:03:09,166 --> 00:03:13,953
+Now I can go back to GitHub Desktop,
+
+41
+00:03:13,953 --> 00:03:19,551
+and I can see I have two changed files, or
+the files I added here on the left.
+
+42
+00:03:19,551 --> 00:03:24,451
+To commit these changes and put them
+on GitHub, I can add a commit message.
+
+43
+00:03:24,451 --> 00:03:30,887
+This time I'll put added
+project starter files.
+
+44
+00:03:30,887 --> 00:03:34,596
+And I can also add a link to your
+description if I want to but
+
+45
+00:03:34,596 --> 00:03:37,783
+that's optional and
+click, commit to master.
+
+46
+00:03:37,783 --> 00:03:40,251
+Then I'll click, Push origin.
+
+47
+00:03:42,898 --> 00:03:47,730
+Now if I go back to github.com, refresh,
+
+48
+00:03:47,730 --> 00:03:52,440
+I can see all of the new
+files I just added.
+
+49
+00:03:52,440 --> 00:03:56,623
+If you ever go to GitHub and
+don't see your changes,
+
+50
+00:03:56,623 --> 00:04:01,664
+double check and make sure you've
+included a commit message,
+
+51
+00:04:01,664 --> 00:04:05,584
+committed to master and
+clicked push to origin.
+
+52
+00:04:05,584 --> 00:04:09,886
+You wanna make sure that any unsaved
+changes have been committed and synced with
+
+53
+00:04:09,886 --> 00:04:14,067
+your GitHub repo, before you submit
+your Techdegree projects for grading,
+
+54
+00:04:14,067 --> 00:04:18,541
+because your Techdegree project reviewer
+won't be able to see any changes you make
+
+55
+00:04:18,541 --> 00:04:19,605
+after you submit.
+
+56
+00:04:19,605 --> 00:04:22,712
+Every time you update
+the project on your computer,
+
+57
+00:04:22,712 --> 00:04:25,760
+you'll commit changes and
+sync them with GitHub.
+
+58
+00:04:25,760 --> 00:04:27,666
+It's as easy as that.
+
+59
+00:04:27,666 --> 00:04:31,862
+Now you're ready to start
+submitting Techdegree projects and
+
+60
+00:04:31,862 --> 00:04:34,722
+building up a portfolio of work on GitHub.
+
+61
+00:04:34,722 --> 00:04:39,345
+What if you already have a completed or
+partially completed project that you wanna
+
+62
+00:04:39,345 --> 00:04:41,829
+make into a repository and
+put onto GitHub?
+
+63
+00:04:41,829 --> 00:04:43,595
+As I said in a previous video,
+
+64
+00:04:43,595 --> 00:04:47,780
+creating your repo first is a good
+habit to get into and I recommend it.
+
+65
+00:04:47,780 --> 00:04:51,973
+But sometimes you'll need to do it this
+way because you forgot to create a repo or
+
+66
+00:04:51,973 --> 00:04:54,865
+starting with some starter files,
+things like that.
+
+67
+00:04:54,865 --> 00:04:58,393
+Here I have a Techdegree project
+that I've been working on.
+
+68
+00:04:58,393 --> 00:05:03,796
+To add this project to
+GitHub Desktop as a repository,
+
+69
+00:05:03,796 --> 00:05:09,327
+go to GitHub Desktop and
+choose File> New Repository.
+
+70
+00:05:09,327 --> 00:05:12,201
+The New Repository window will pop up.
+
+71
+00:05:12,201 --> 00:05:13,911
+Now this is very important.
+
+72
+00:05:13,911 --> 00:05:18,032
+If you're turning an existing
+project folder into a Git repository,
+
+73
+00:05:18,032 --> 00:05:22,973
+the repository name must exactly match
+the name of your project folder.
+
+74
+00:05:29,017 --> 00:05:31,487
+And here where it says Local Path,
+
+75
+00:05:31,487 --> 00:05:36,952
+the path should point to the parent
+folder where your project folder lives.
+
+76
+00:05:36,952 --> 00:05:40,853
+In my case the parent folder
+is that folder called Code,
+
+77
+00:05:40,853 --> 00:05:43,936
+that houses all of my
+Techdegree projects.
+
+78
+00:05:46,711 --> 00:05:53,208
+So I'll give this the name
+techdegree-project-4.
+
+79
+00:05:53,208 --> 00:06:00,083
+And for now the description will
+be this is Techdegree Project 4.
+
+80
+00:06:00,083 --> 00:06:03,438
+This project has some JavaScript in it.
+
+81
+00:06:03,438 --> 00:06:07,216
+So I'll choose the Node option for
+the Git ignore file.
+
+82
+00:06:09,922 --> 00:06:13,614
+And I'll click Create Repository.
+
+83
+00:06:13,614 --> 00:06:20,000
+Notice this drop down menu shows
+us a list of all our repositories.
+
+84
+00:06:20,000 --> 00:06:22,593
+Here's the project we just added, but
+
+85
+00:06:22,593 --> 00:06:27,083
+it's listed in the other category
+instead of the GitHub category.
+
+86
+00:06:27,083 --> 00:06:29,776
+That's because we haven't
+published it to GitHub yet.
+
+87
+00:06:29,776 --> 00:06:33,486
+To publish, click Publish Repository,
+
+88
+00:06:33,486 --> 00:06:39,316
+unclick keep this code private,
+and click Publish Repository.
+
+89
+00:06:42,413 --> 00:06:44,482
+Now go to github.com,
+
+90
+00:06:48,789 --> 00:06:52,374
+and you'll see the folder and
+all of its files are now on GitHub.
+
+91
+00:06:54,236 --> 00:06:58,216
+We can now make changes, and add,
+and delete files all we want,
+
+92
+00:06:58,216 --> 00:07:01,778
+as well as make commits and
+push those commits to GitHub.
+
+93
+00:07:01,778 --> 00:07:04,780
+If you're interested in looking
+into Git and GitHub a little more,
+
+94
+00:07:04,780 --> 00:07:07,467
+check out the teacher's notes for
+other Treehouse courses and
+
+95
+00:07:07,467 --> 00:07:09,328
+workshops that cover them in more depth.
+
+96
+00:07:09,328 --> 00:07:11,656
+There's a lot more you can do with GitHub,
+but
+
+97
+00:07:11,656 --> 00:07:15,075
+it all begins with publishing your
+project to a GitHub repository.
+
+98
+00:07:15,075 --> 00:07:17,580
+Thanks for watching, and
+have fun sharing your code.
+
