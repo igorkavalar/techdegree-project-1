@@ -21,6 +21,10 @@ a:hover {
   color: #6633ff;
 }
 
+img {
+  width: 100%;
+}
+
 /* Section Styles */
 
 .main-nav {
@@ -70,11 +74,11 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+  border: 3px solid rgb(252, 232, 119);
+  transition: all 0.5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.13) rotate(8deg);
 }
 .tag {
   background-color: #efefef;
@@ -89,9 +93,9 @@ header .profile-image:hover {
   color: yellow;
 }
 .card {
-  margin: 30px;
-  padding: 20px 40px 40px;
-  max-width: 500px;
+  margin: 13px;
+  padding: 20px 21px 40px;
+  max-width: 600px;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
@@ -177,6 +181,10 @@ a.social:hover {
       -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;
+  }
+
+  .card {
+    flex: 1;
   }
 
   header {
